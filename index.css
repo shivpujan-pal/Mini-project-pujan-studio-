@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main-box{
+  
+    background: url(photo.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.btn-one{
+    color: white;
+    
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}
+.sidebar-menu{
+    position: fixed;
+    left: -350px;
+    height: 100vh;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+
+}
+.sidebar-menu .logo {
+    position: relative;
+    
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    height: 60px;
+    padding: 12px 0;
+}
+.sidebar-menu .logo a {
+    position: absolute;
+    left: 60px;
+    top: 17px;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-menu .btn-two {
+    color:rgb(246, 245, 245);
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 275px;
+    cursor: pointer;
+}
+
+.sidebar-menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar-menu .menu li {
+    margin-top: 6px;
+    padding: 14px 20px;
+   
+
+}
+
+.sidebar-menu .menu i,a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+   
+}
+
+.sidebar-menu .menu i {
+    padding-right: 10px;
+}
+
+.sidebar-menu .social-media{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+}
+.sidebar-menu .social-media i{
+    color: white;
+    opacity: 0.5;
+    padding: 5px;
+}
+#check {
+    display: none;
+}
+
+.sidebar-menu .menu li:hover{
+    /* border-radius:  2px solid red; */
+    /* box-shadow: 6px solid rgb(140, 3, 3); */
+    /* background-color: white; */
+    /* border: 2px solid red; */
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.btn-one i:hover{
+    font-size: 40px;
+    transition: 1s;
+
+}
+.btn-two i:hover{
+    font-size: 30px;
+    transition: 1.5s;
+
+}
+.sidebar-menu .social-media i:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    /* transition: 3s; */
+}
+
+#check:checked ~ .sidebar-menu{
+    left: 0;
+    transition: 0.5s;
+}
+#check:checked ~ .btn-one i{
+    opacity: 0;
+}
