@@ -18,3 +18,6 @@ console.log(a);
 
 let A = ("shivpujan is  merging file with each other with help of git and githunb");
 console.log(A);
+
+let P = ("Now i am changing file local to remote");
+console.log(P);
