@@ -2,7 +2,7 @@ const favMovie ="Panchayat";
 
 let guess = prompt("guess my favorite movie");
 
-while ( (guess ! = favMovie) && ( guess ! = "quite")){
+while ( (guess = favMovie) && ( guess != "quite")){
     guess=prompt("guess wrong ,  please try again");
 }
 
@@ -12,3 +12,9 @@ if(guess == favMovie){
 else{
     console.log("You Quite")
 }
+
+let s = console.log("shivpujan");
+console.log(a);
+
+let A = ("shivpujan is  merging file with each other with help of git and githunb");
+console.log(A);
