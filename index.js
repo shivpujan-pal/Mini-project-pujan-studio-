@@ -15,3 +15,6 @@ else{
 
 let s = console.log("shivpujan");
 console.log(a);
+
+let A = ("shivpujan is  merging file with each other with help of git and githunb");
+console.log(A);
